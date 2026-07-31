@@ -9,8 +9,8 @@ import Link from 'next/link';
 import imgKora1 from "../../public/assets/kora/imagemKoraUm.png";
 import imgKora2 from "../../public/assets/kora/imagemKoraDois.png";
 import imgKora3 from "../../public/assets/kora/imagemKoraTres.png";
-import imgChrono1 from "../../public/assets/ChronoTask/imagemTaskUm.png";
-import imgChrono3 from "../../public/assets/ChronoTask/imagemTaskDois.png";
+import imgChrono1 from "../../public/assets/ChronoTask/print1-chronotask.png";
+import imgChrono3 from "../../public/assets/ChronoTask/print2-chronotask.png";
 
 
 export default function Projects() {
@@ -71,7 +71,7 @@ export default function Projects() {
                 <div className="project-card-header">
                   <div className="project-title-area">
                     <h3>Kora IA</h3>
-                    <span className="status-badge approved">Aprovado</span>
+                    <span className="status-badge approved">Concluído</span>
                   </div>
                 </div>
 
@@ -122,7 +122,7 @@ export default function Projects() {
                 <div className="project-card-header">
                   <div className="project-title-area">
                     <h3>ChronoTask</h3>
-                    <span className="status-badge developing">Em Desenvolvimento (60%)</span>
+                    <span className="status-badge approved">Concluído</span>
                   </div>
                 </div>
 
